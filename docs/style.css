@@ -16,11 +16,10 @@
     grid-gap: 0px;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(8,auto);
-    width: 100%;
 }
 
 .container1 header{
-    font-size: 25px;
+    font-size: 18px;
     background-color: white;
     grid-column:1;
     display: flex;
@@ -28,6 +27,7 @@
     text-align: center;
     padding: 34px;
     padding-left: 180px;
+    font-weight: bolder;
 }
 
 .container1 .header2{
@@ -37,8 +37,9 @@
     text-align: center;
     align-content: center;
     justify-content: right;
-    font-size: 20px;
+    font-size: 15px;
     padding: 34px;
+    font-weight:bold;
 }
 
 
@@ -50,8 +51,9 @@
     text-align: center;
     align-content: center;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 15px;
     padding: 34px;
+    font-weight: bold;
 }
 
 .box1{
@@ -85,13 +87,12 @@
 }
 
 .box6{
-    width: 100px;
     justify-content: center;
 }
 
 .box6-box{
     background-color: #2575cc;
-    width: 180px;
+    width: 150px;
     height: auto;
     align-content: center;
     align-items: center;
@@ -111,7 +112,7 @@
 
 .box7{
     color: #2575cc;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     padding: 15px;
     text-align: left;
@@ -138,13 +139,42 @@
     text-align: left;
 }
 
+.container11{
+    grid-column: span 4;
+    display: flex;
+    justify-content: space-between;
+    background-color:#eef3f9;
+    width: 90%;
+    padding: 60px;
+    padding-left: 100px;
+}
+
+.box1-container11{
+    color: darkblue;
+    text-align: left;
+}
+
+.box1-container11 p{
+    color: darkblue;
+    font-size: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.box1-container11 h5{
+    color: darkblue;
+    font-size: 13px;
+    text-align: center;
+}
+
+
 
 .container1 .contenido{
     grid-column: span 2;
     background-color:white;
     padding: 60px;
     padding-left: 180px;
-    padding-right: 300px;
+    padding-right: 55px;
 }
 
 .container1 .contenido4{
@@ -165,16 +195,17 @@
 }
 
 .contenido p{
-    font-size: 25px;
+    font-size: 19px;
     color: #2575cc; 
     text-align: left;  
     line-height: 40px;
+    padding-right: 25px;
 }
 
 .container1 .contenido1{
     grid-column: span 2;
     background-image: url(images/1.jpg);
-    height: 1100px;
+    height: 1000px;
     top: 0;
     left: 0;
     -webkit-background-size: cover;
@@ -245,7 +276,7 @@
 }
 
 .box1-contenido4 h3{
-    font-size: 35px;
+    font-size: 30px;
     padding: 40px;
 }
 
@@ -303,7 +334,7 @@
 
 .box1-contenido6 h4{
     color: darkblue;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
 }
 
